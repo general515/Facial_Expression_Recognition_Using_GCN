@@ -1,0 +1,8 @@
+GCN10 <==> model = GCN7(channel=4, lych = 10)
+GCN40 <==> model = GCN7(channel=4, lych = 40)
+
+models:
+pretrained_GCN10.pt pretrained on AffectNet
+GCN10_FER2013.pt  is best for FER2013 test set
+GCN10_FERPlus.pt  is best for FERPLus test set
+GCN10_RAF.pt is best for RAF dataset
