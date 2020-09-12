@@ -20,5 +20,17 @@ The RAF-DB can be found at http://www.whdeng.cn/RAF/model1.html#dataset
 FER2013 and FERPlus can be found at 
 Link：https://pan.baidu.com/s/1265rT59qoUW7AQkaV9DobQ 
 password：1111
-# -Facial_Expression_Recognition_Using_GCN-te
-# test
+
+
+main_train_test.py is the main file for training and testing
+
+test_demo.py  is testing file with trained models (weights)
+
+requires installing the package for GCNs at
+https://github.com/jxgu1016/Gabor_CNN_PyTorch
+
+The directory 'test_demo_without_installing_GCN'  is a tesing demo without instaling GCN package
+
+Some trained models (weights) are provided in the directory 'trained_weights'
+
+Please revise path for database
