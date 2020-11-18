@@ -1,5 +1,8 @@
 # Facial_Expression_Recognition_GCN
 
+PyTorch code for 'Fast and Efficient Facial Expression Recognition Using a Gabor Convolutional Network' (IEEE Signal Processing Letters, Vol. 27:1954-1958, 2020)
+
+
 Highlights: 
 
 (1) This model is very light, only 4 convolutional layers and 2 FC layers (including the FC for softmax loss).
